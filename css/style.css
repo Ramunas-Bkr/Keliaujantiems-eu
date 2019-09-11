@@ -118,9 +118,32 @@ main {
         text-align: center;
         color: #fff;
         font-size: 25px;
-        /* margin-top: 440px; */
         position: absolute;
         bottom: 25px;
-        /* vertical-align: text-bottom; */
         text-shadow: 3px 3px 5px black;
     }
+        main  .img-left {
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+            margin-top: 60px;
+        }
+        main  .img-right {
+            display: inline-block;
+            width: 60%;
+        }
+        main h4 {
+            display: inline-block;
+            margin-top: 60px;
+            font-size: 20px;
+        }
+        main p {
+            display: inline-block;
+            margin-top: 10px;
+        }
+        main a {
+            display: inline-block;
+            margin-top: 20px;
+            color: red;
+            text-decoration: none;
+        }
