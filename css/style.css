@@ -27,13 +27,13 @@ header {
         width: 40%;
         margin-top: 60px;
         word-spacing: 20px;
-        float: left;
     }
     header > ol {
         display: inline-block;
         width: 20%;
         margin-top: 60px;
         word-spacing: 20px;
+        margin-left: 40px;
     }
 .hero {
     display: inline-block;
@@ -42,7 +42,6 @@ header {
     height: 90vh;
     background-size: cover;
     background-position: bottom center;
-    position: relative;
 }
     .hero > .container {
         display: inline-block;
@@ -66,3 +65,62 @@ header {
             text-shadow: 5px 5px 10px black;
             line-height: 150%;
         }
+main {
+    display: flex;
+    width: 1200px;
+    margin: 0 calc( (100% - 1200px) / 2);
+}
+    main > .container1 {
+        display: inline-block;
+        width: 33%;
+        transform: translate(0 , -70px);
+    }
+        main > .container1 > .img1 {
+            display: inline-block;
+            background-image: url(../img/img_1.jpg);
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+            background-position: bottom center;
+            position: relative;
+        }
+    main > .container2 {
+        display: inline-block;
+        width: 33%;
+        transform: translate(0 , -70px);
+    }
+        main > .container2 > .img2 {
+            display: inline-block;
+            background-image: url(../img/img_2.jpg);
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+            background-position: bottom center;
+            position: relative;
+        }
+    main > .container3 {
+        display: inline-block;
+        width: 33%;
+        transform: translate(0 , -70px);
+    }
+        main > .container3 > .img3 {
+            display: inline-block;
+            background-image: url(../img/img_3.jpg);
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+            background-position: bottom center;
+            position: relative;
+        }
+    main h3 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        /* margin-top: 440px; */
+        position: absolute;
+        bottom: 25px;
+        /* vertical-align: text-bottom; */
+        text-shadow: 3px 3px 5px black;
+    }
