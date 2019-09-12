@@ -147,3 +147,43 @@ main {
             color: red;
             text-decoration: none;
         }
+section {
+    display: inline-block;
+    width: 100%;
+    background-color: lightgrey;
+    padding-bottom: 30px;
+}
+    section > h2 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    section > .container4 {
+        display: inline-block;
+        margin: 0 calc( (100% - 900px) / 2);
+    }
+    section > .container4 > img {
+        display: inline-block;
+        width: 500px;
+        background-position: bottom center;
+    }
+    section > .container4 > .txt-container {
+        display: inline-block;
+        width: 40%;
+        background-color: #fff;
+        padding: 80px 50px;
+        top: 50%;
+        transform: translate(-50px , 30%);
+        font-size: 17px;
+        color: gray;
+    }
+            section span {
+                display: inline-block;
+                margin-top: 25px;
+                font-style: italic;
+           }
+           
+
+
